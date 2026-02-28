@@ -111,7 +111,7 @@ namespace ClassificationGrainsDeBle.Classification.KD_Tree
             else
             {
                 Cherche(noeud.Left, cible, k, distance, Listevoisins); // Explorer le sous-arbre gauche
-                if (Listevoisins.Count < k || Math.Abs(diff) < Listevoisins.[Listevoisins.Count-1].dist)
+                if (Listevoisins.Count < k || Math.Abs(diff) < Listevoisins[Listevoisins.Count-1].dist)
                 {
                     Cherche(noeud.Right, cible, k, distance, Listevoisins); // Explorer le sous-arbre droit
                 }
