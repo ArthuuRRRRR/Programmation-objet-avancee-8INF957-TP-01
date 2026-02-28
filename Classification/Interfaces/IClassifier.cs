@@ -8,6 +8,6 @@ namespace ClassificationGrainsDeBle.Classification.Interfaces
 {
     internal interface IClassifier
     {
-        string Predict();
+        string Predict(Domain.Ble grain);
     }
 }
