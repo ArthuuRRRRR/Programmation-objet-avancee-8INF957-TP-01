@@ -20,6 +20,5 @@ namespace ClassificationGrainsDeBle.Classification.Distances
             }
             return sum;
         }
-    {
     }
 }
