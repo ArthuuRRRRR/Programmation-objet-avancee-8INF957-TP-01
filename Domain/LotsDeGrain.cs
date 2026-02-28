@@ -15,7 +15,7 @@ namespace ClassificationGrainsDeBle.Domain
         public double Poids { get; set; }
         public double PrixUnitaire { get; set; }
         public List<Ble> Bles { get; set; }
-        public List<Sesame> Sesames { get; set; }
+        //public List<Sesame> Sesames { get; set; }
 
 
         public double CalculerPrix()
