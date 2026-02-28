@@ -33,9 +33,10 @@ namespace ClassificationGrainsDeBle
 
             if (choixDistance == "Euclidienne")
                 distance = new DistanceEuclidienne();
+                
             else
                 distance = new DistanceManhattan();
-
+            AnsiConsole.MarkupLine($"[green]Méthode de distance:[/] {choixDistance}");
             // Chargement des donnée
 
             List<Ble> trainData = CsvLoader.Load("C:\\Users\\kewan lensen\\Documents\\Trimestre2\\Programmation objet avancée\\TP1\\base_de_données\\seeds_dataset_training.csv", ';');
