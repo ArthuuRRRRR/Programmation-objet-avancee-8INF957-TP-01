@@ -43,7 +43,7 @@ namespace ClassificationGrainsDeBle.Domain
 
                         ble.Variety = parts[0].Trim();
 
-
+                      
                         ble.Area = double.Parse(parts[1], CultureInfo.InvariantCulture);
                         ble.Perimeter = double.Parse(parts[2], CultureInfo.InvariantCulture);
                         ble.Compactnesses = double.Parse(parts[3], CultureInfo.InvariantCulture);
