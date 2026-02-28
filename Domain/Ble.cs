@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassificationGrainsDeBle.Domain
 {
-    internal class Ble
+    public class Ble
     {
         // On va suivre les attributs du fichier csv : 
         // l'attribut à déterminer : 
